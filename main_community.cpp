@@ -26,6 +26,8 @@
 #include "graph_binary.h"
 #include "community.h"
 
+#include <unistd.h> /* explicite import for getpid */
+
 using namespace std;
 
 char *filename = NULL;
